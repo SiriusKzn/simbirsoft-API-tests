@@ -6,7 +6,7 @@ from data import generators as gen
 from handlers import url_disk_handler as handlers
 
 
-class Test_Disk_API:
+class TestDiskAPI:
     test_params = [
         {
             'Folder_name': f"__{gen.generate_folder_name()}__",
