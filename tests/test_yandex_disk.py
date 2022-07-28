@@ -7,6 +7,7 @@ from handlers import url_disk_handler as handlers
 
 
 class TestDiskAPI:
+    """Генерация параметров для тестов"""
     test_params = [
         {
             'Folder_name': f"__{gen.generate_folder_name()}__",
